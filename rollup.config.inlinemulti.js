@@ -2,7 +2,7 @@ import { promise } from 'matched';
 
 
 /* eslint-disable consistent-return, no-param-reassign */
-const entry = '@rollup:plugin-multi-entry:entry-point';
+const entry = '\0rollup:plugin-multi-entry:entry-point';
 function multiEntry(conf) {
   let include = [];
   let exclude = [];
@@ -43,6 +43,7 @@ function multiEntry(conf) {
     },
 
     resolveId(id) {
+      console.log(`resolveId: ${id}`);
       if (id === entry) {
           //should this be happening?
         return entry;
