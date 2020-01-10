@@ -1,0 +1,24 @@
+{
+  "name": "rollup-bug",
+  "version": "1.0.0",
+  "description": "testing plugin-multi-entry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinaesthete/rollup-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinaesthete/rollup-bug/issues"
+  },
+  "homepage": "https://github.com/xinaesthete/rollup-bug#readme",
+  "devDependencies": {
+    "@rollup/plugin-multi-entry": "^3.0.0",
+    "rollup": "^1.29.0"
+  }
+}
