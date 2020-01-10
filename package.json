@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "nobug": "rollup -c rollup.config.nobug.js"
+    "nobug": "rollup -c rollup.config.nobug.js",
+    "inlinemulti": "rollup -c rollup.config.inlinemulti.js"
   },
   "repository": {
     "type": "git",
